@@ -7,7 +7,19 @@
 
 Healthcare Knowledge Navigator is an enterprise-grade Retrieval-Augmented Generation (RAG) system designed specifically for clinical environments. It allows healthcare professionals to securely ingest, process, and query massive clinical guidelines, trial data, and medical literature using advanced semantic search and AI generation.
 
-![Application Interface Placeholder](docs/images/frontend_ui.png)
+## Screenshots
+
+### Main Dashboard
+![Homepage](docs/images/homepage.png)
+
+### Clinical Question Answering
+![Question Answering](docs/images/question_answering.png)
+
+### Evidence & Citations
+![semantic_search_explorer](docs/images/semantic_search_explorer.png)
+
+### Document Ingestion
+![Document Upload](docs/images/document_upload.png)
 
 ## 🌟 Features
 
