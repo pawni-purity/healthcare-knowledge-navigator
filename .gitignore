@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Environments
+.env
+.env.local
+.env.*.local
+
+# Databases and Vectors
+*.sqlite3
+*.db
+healthcare_navigator.db
+local_qdrant/
+qdrant_storage/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing and Coverage
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.pytest_cache/
+htmlcov/
+
+# Logs
+logs/
+*.log
+uvicorn_log.txt
+
+# Streamlit
+.streamlit/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project Specific
+scratch/
+uploads/
