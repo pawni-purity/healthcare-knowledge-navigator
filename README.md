@@ -117,13 +117,17 @@ The frontend will be available at `http://localhost:8501` and the backend API do
 ## 📚 API Endpoints
 
 ### Documents
-- `POST /api/v1/ingest/upload`: Upload and index a PDF clinical document.
-- `GET /api/v1/ingest/status/{task_id}`: Check the indexing status of a document.
+- `POST /api/v1/ingestion/upload`: Upload and index a PDF clinical document.
+- `GET /api/v1/ingestion/documents`: Lists metadata for all ingested clinical files.
 
 ### Retrieval & Generation
 - `POST /api/v1/rag/ask`: Submit a single query and receive a grounded answer, citations, and confidence score.
 - `POST /api/v1/rag/chat`: Submit a query with conversation history for multi-turn contextual chats.
-- `POST /api/v1/search/semantic`: Perform a raw semantic vector search against the knowledge base without LLM generation.
+- `POST /api/v1/search/query`: Executes a semantic vector search query on Qdrant, resolves parent contexts, and returns metadata-grounded search results.
+- `POST /api/v1/search/evaluate`: Evaluates semantic retrieval performance against a clinical test dataset, returning aggregate Mean Reciprocal Rank (MRR) and Hit Rate statistics.
+
+### System
+- `GET /health`: Standard heartbeat endpoint for container orchestrators.
 
 ## 📂 Project Structure
 
