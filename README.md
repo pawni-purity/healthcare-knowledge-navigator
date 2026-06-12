@@ -15,7 +15,7 @@ Healthcare Knowledge Navigator is an enterprise-grade Retrieval-Augmented Genera
 ### Clinical Question Answering
 ![Question Answering](docs/images/question_answering.png)
 
-### Evidence & Citations
+### Semantic Search Explorer
 ![semantic_search_explorer](docs/images/semantic_search_explorer.png)
 
 ### Document Ingestion
